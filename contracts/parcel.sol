@@ -15,7 +15,6 @@ contract Parcel is ERC721Parcel {
     function baseTokenURI() public pure override returns (string memory) {
         return "https://parcels.cityDAO.com/api/parcels/";
     }
-
     function contractURI() public pure returns (string memory) {
         return "https://parcels.cityDAO.com/contracts/ERC721-parcels";
     }
